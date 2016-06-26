@@ -61,5 +61,6 @@
   <ItemGroup>
     <Build Include="ShoppingListItems.sql" />
     <Build Include="Users.sql" />
+    <Build Include="UsersInfo.sql" />
   </ItemGroup>
 </Project>
