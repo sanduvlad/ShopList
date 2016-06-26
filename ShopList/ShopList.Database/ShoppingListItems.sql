@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[ShoppingListItems]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Nume] NVARCHAR(MAX) NOT NULL, 
+    [Categorie] NVARCHAR(MAX) NOT NULL, 
+    [Tip] NVARCHAR(MAX) NOT NULL, 
+    [Pret] FLOAT NOT NULL DEFAULT 1.0
+)
